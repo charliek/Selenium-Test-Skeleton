@@ -1,4 +1,4 @@
-package com.ibsys.webdev.selemiumtests;
+package com.ibsys.webdev.seleniumtests;
 
 import com.thoughtworks.selenium.DefaultSelenium;
 import org.testng.annotations.AfterClass;
@@ -9,9 +9,9 @@ import static org.testng.Assert.*;
 
 
 /**
- * Unit test for simple App.
+ * Load up the home page and check for the text "More News".
  */
-public class AppTest {
+public class TextPresentTest {
 
     private DefaultSelenium selenium;
 
